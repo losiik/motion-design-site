@@ -1,0 +1,20 @@
+{% extends 'about/layout.html' %}
+
+{%  load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href="{% static 'about/css/style.css' %}">
+{% endblock %}
+
+{% block content %}
+    <section class="about">
+        <div class="main">
+            <img src="../../static/about/img/main.jpg">
+            <div class="about-text">
+                <h1>About</h1>
+                <h5>Developer & Designer</h5>
+                <p>Современный охуенный невъебенный моушен дизайнер. Буквально бог дизайна, признан всеми кем можно и кем нельзя. А кто не признал - грязный пидр. Заказывайте у меня и все будет охуенно.</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
